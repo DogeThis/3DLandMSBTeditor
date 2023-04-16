@@ -776,7 +776,7 @@ namespace MsbtEditor
 					MessageBox.Show("The label name you entered already exists. The new label name must be unique.", "Invalid Label Name", MessageBoxButtons.OK, MessageBoxIcon.Error);
 			}
 			else
-				MessageBox.Show("The label name you entered is not valid. You can only use alphanumeric values: a-z, A-Z, 0-9 and _ (underscore). The length is also limited to 64 characters.", "Invalid Label Name", MessageBoxButtons.OK, MessageBoxIcon.Error);
+				MessageBox.Show("The label name you entered is not valid. You can only use alphanumeric values: a-z, A-Z, 0-9, #, and _ (underscore). The length is also limited to 64 characters.", "Invalid Label Name", MessageBoxButtons.OK, MessageBoxIcon.Error);
 		}
 
 		private void btnAddLabel_Click(object sender, EventArgs e)
@@ -805,7 +805,7 @@ namespace MsbtEditor
 					MessageBox.Show("The label name you entered already exists. The new label name must be unique.", "Invalid Label Name", MessageBoxButtons.OK, MessageBoxIcon.Error);
 			}
 			else
-				MessageBox.Show("The label name you entered is not valid. You can only use the alphanumeric values: a-z, A-Z, 0-9 and _ (underscore). The length is also limited to 64 characters.", "Invalid Label Name", MessageBoxButtons.OK, MessageBoxIcon.Error);
+				MessageBox.Show("The label name you entered is not valid. You can only use the alphanumeric values: a-z, A-Z, 0-9, #, and _ (underscore). The length is also limited to 64 characters.", "Invalid Label Name", MessageBoxButtons.OK, MessageBoxIcon.Error);
 		}
 
 		private void btnDeleteLabel_Click(object sender, EventArgs e)
